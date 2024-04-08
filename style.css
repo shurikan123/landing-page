@@ -1,0 +1,87 @@
+*{
+    font-family: roboto, sans-serif;
+}
+
+body {
+
+   min-height: 100vh;
+
+   /*min-width: 100vw; not sure kaip tiksliai veikia*/
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex: 1;
+    padding-bottom: 150px;
+}
+
+.header {
+    padding-bottom: 100px;
+    color: #F9FAF8;
+}
+.list {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.left-links {
+    font-size: 24px;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.right-links {
+    font-size: 16px;
+}
+
+
+.info{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.bigtext{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.split {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    gap:15px;
+}
+
+.button1 {
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    padding: 10px 20px;
+    background-color: #3882F6 ;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.imgplaceholder {
+    background-color: grey;
+    display: flex;
+    flex:1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
