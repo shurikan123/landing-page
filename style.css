@@ -5,8 +5,17 @@
 body {
 
    min-height: 100vh;
+   margin: 0px;
 
    /*min-width: 100vw; not sure kaip tiksliai veikia*/
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    padding-left: 20%; /* Use percentage-based padding */
+    padding-right: 20%; /* Use percentage-based padding */
 }
 
 .first{
@@ -14,8 +23,6 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #1F2937;
-    padding-left: 250px;
-    padding-right: 250px;
     flex: 1;
     padding-bottom: 150px;
 }
@@ -27,7 +34,6 @@ body {
 .list {
     list-style: none;
     display:flex;
-    justify-content: flex-end;
     gap: 20px;
 
 }
@@ -63,16 +69,18 @@ body {
     gap:15px;
 }
 
-.button1 {
+.button1,
+.button2 {
     font-weight: bold;
     text-align: center;
     width: 80px;
     padding: 10px 20px;
     background-color: #3882F6 ;
-    border:none;
     border-radius: 5px;
     cursor:pointer;
 }
+
+
 
 .imgplaceholder {
     background-color: grey;
@@ -84,4 +92,102 @@ body {
     flex-wrap: wrap;
 }
 
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font: 900 36px Arial;
+    color: #1f2937;
+}
+
+.justflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.squares {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-inline: 15px;
+}
+
+.squaretext {
+    display: flex;
+    width: 150px;
+    text-align: center;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5E7EB;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.quote {
+    font: 200 36px italic;
+    color: #1F2937;
+    align-self: center;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.fourth {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bluebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 150px;
+    background-color: #3882F6;
+    color: #e5E7EB;
+    border-radius: 10px;
+}
+
+.mediumtext {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.button2{
+    border: solid 3px #e5E7EB;
+    border-radius: 15px;
+}
+
+footer{
+    display:flex;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #e5E7EB;
+    justify-content: center;
+    align-items: center;
+}
 
